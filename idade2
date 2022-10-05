@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+public class Main
+{
+  
+public static void main (String[]args)
+  {
+    
+ 
+int nota1, nota2, media;
+    
+      //espaco pra entrada nota 
+      Scanner ler = new Scanner (System.in);
+    
+System.out.printIn ("Digite sua 1 nota");
+    
+nota1 = ler.nextIn ();
+    
+      //espaco pra 2 nota
+      System.out.printIn ("Digite sua 2 nota");
+    
+nota2 = ler.nextIn ();
+    
+media = (nota1 + nota2) / 2;
+    
+if (media <= 5)
+      {
+	
+System.out.printIn ("O aluno foi reprovado");
+      
+}
+    
+ 
+    else if (media < 5)
+    {  
+System.out.printIn ("O aluno foi aprovado");
+  
+}
+
+}
+
+ 
+}
